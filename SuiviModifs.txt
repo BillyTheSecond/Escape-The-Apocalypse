@@ -1,0 +1,37 @@
+#Dans ce fichier on peut écrire toutes les modifications que l'on a faites de notre coté
+
+Samedi 16 octobre:
+[] : - Création fonction du mini jeu de conversion nommée mini_jeu_conversions()
+            - Création des dictionnaires où l'on peut inscrire les questions et leurs réponses par niveaux
+            - Création de la fonction ask_for_level() qui demande à l'utilisateur de choisir le niveau de difficulté. Elle retourne le niveau choisi.
+            - Création de la fonction create_level_dictionary(level), qui admet comme argument le niveau choisi. Elle créé un unique dictionnaire qui regroupe toutes les questions et réponses de tous les mini-jeux du niveau sélectionné.
+            - Début de la Création de la fonction principale main() qui permettra au jeu de se lancer
+
+Dimanche 7 novembre:
+[] : Bilan sur l'avancée du jeu:
+            - Les fonctions ont été modifiées pour accueillir et s'adapter à l'interface graphique
+            - Le jeu permet de choisir un niveau de difficulté (1 ou 2) et enchaine ensuite en posant les questions des mini-jeu.
+            - Il exister 3 types d'interfaces selon les questions : 
+                - 1: 1 bouton "True", un bouton "False"
+                - 2: 1 entrée de texte et un bouton de validation
+                - 3: 1 bouton "1", un bouton "0", un bouton "suppr.", un bouton "valider" et une entrée de texte (jeu booléen)
+            - le jeu est prêt à accueillir les illustrations de Clara, le systeme d'images fonctionne parfaitement avec les fonctions supprimer_image_fond(img) et changer_image_fond(img)
+            - Description du fonctionnement des mini-jeux: 
+                - Les éléments présent dans la fenêtre sont effacés. Une question est posée et s'affiche dans la zone "script". L'image qui correspond à la questions s'affiche en arrière-plan et l'interface de réponse qui correspond à la question est affichée. L'utilisateur possède 3 tentatives pour répondre
+                - Si l'utilisateur parvient à répondre correctement, un message indiquant la réussite s'affiche dans la zone "script" et le mini-jeu suivant est lancé.
+                - SI l'utilisateur ne parvient pas à trouver la bonne réponse en 3 coups, un message d'échec s'affiche, l'interface actuelle est effacée et une autre question du même mini-jeu est affichée
+            - Certaines fonctions dont main() sont devenues inutiles pour l'interface graphique
+            - Création de la page finale qui permet de rentrer le code obtenu et de la page de fin avec les crédits ...            
+          A FAIRE : 
+            - Ajouter le script de départ (qui raconte le contexte et notre petite histoire)
+            - Intégration des images au jeu
+            - Vérification de toutes les questions et leurs réponses
+Jeudi 11 novembre:
+[] : Bilan sur l'avancée du jeu:
+            - Les éléments graphiques ont été réalisés par Clara et intégrés au jeu
+            - Le script de départ se lance correctement après la sélection du niveau
+            - Les questions et réponses ont été vérifiées par Quentin
+      A FAIRE : 
+            - Imaginer plusieurs fins possibles.
+
+
